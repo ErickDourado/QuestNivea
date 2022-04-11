@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/styles.css" />
+ 
+  <title>Nivea 1.0</title>
+  <link rel="shortcut icon" href="img/icone/k.png" type="image/x-icon">
+</head>
+
+<body>
+  <!-- Caixa das imagens  -->
+
+
+    <div id="inicial">
+      <img src="img/Artboard5.png" onclick="goQuiz()" alt="slide5" />
+    </div>
+
+
+  <div id="pergunta1" class="questionContainer">
+    <div class="design">
+    <p class="title-1">UM LUGAR QUE<br> MAIS GOSTO DE IR...</p>
+    </div>
+    <img src="img/fotos_separadas/1_pergunta/CIDADE-01.png" onclick="questionario(1,1)" alt="Cidade" />
+    <p class="answer-1">CIDADE</p>
+    <img src="img/fotos_separadas/1_pergunta/CAMPO-01.png" onclick="questionario(1,2)" alt="Campo" />
+    <p class="answer-1">CAMPO</p>
+    <img src="img/fotos_separadas/1_pergunta/PRAIA-01.png" onclick="questionario(1,3)" alt="Praia" />
+    <p class="answer-1">PRAIA</p>
+  </div>
+  
+  <div id="pergunta2" class="questionContainer-2">
+    <div class="design">
+    <p class="title-2">MEUS LÁBIOS<br> NORMALMENTE SÃO...</p>
+    </div>
+    <img src="img/fotos_separadas/2_pergunta/PALIDOS-01.png" onclick="questionario(2,1)" alt="Palidos" />
+    <p class="answer-2">PÁLIDOS</p>
+    <img src="img/fotos_separadas/2_pergunta/RESSECADOS-01.png" onclick="questionario(2,2)" alt="Ressecados" />
+    <p class="answer-2">RESSECADOS</p>
+    <img src="img/fotos_separadas/2_pergunta/SAUDAVEIS-01.png" onclick="questionario(2,3)" alt="Saudaveis" />
+    <p class="answer-2">SAUDÁVEIS</p>
+  </div>
+
+
+  <div id="pergunta3" class="questionContainer-3">
+    <div class="design">
+    <p class ="title-3">PARA MEUS LÁBIOS<br>PREFIRO...</p>
+    </div>
+    <img src="img/fotos_separadas/3_pergunta/HIDRATACAO-INTENSA-01.png" onclick="questionario(3,1)" alt="Hidra-intensa">
+    <p class="answer-3">HIDRATAÇÃO INTENSA</p>
+    <img src="img/fotos_separadas/3_pergunta/ESFOLIAÇAO-01.png" onclick="questionario(3,2)"alt="Esfoliacao">
+    <p class="answer-3">ESFOLIAÇÃO E HIDRATAÇÃO</p>
+    <img src="img/fotos_separadas/3_pergunta/HIDRATACAO-COR-E-BRILHO-01.png" onclick="questionario(3,3)" alt="Hidra-brilho">]
+    <p class="answer-3">HIDRATAÇÃO, COR E BRILHO</p>
+  </div>
+ 
+ 
+  <div id="combina" class="combina">
+    <div class="design">
+    <p class ="title">COMBINA COM<br>VOCÊ...</p>
+    </div>
+
+  <div class="row">
+    <div class="col-6">
+      <img id="combina1" class="combina_img" src="" alt="Combina1">
+      <p id="labelproduto1" class="answer" ></p>      
+    </div>
+    <div class="col-6">
+      <img id="combina2" class="combina_img" src="" alt="Combina2">
+      <p id="labelproduto2" class="answer"></p>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-12">
+      <img id="combina3" class="combina_img" src="" alt="Combina3">
+      <p id="labelproduto3" class="answer"></p>      
+    </div>
+ </div>
+
+
+    <div class="img-reinicia">
+      <img src="img/reiniciar.png" onclick="reinicia()">
+    </div> 
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+ <script src="js/main.js"></script> 
+</body>
+
+</html>

@@ -1,0 +1,223 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html,
+body {
+  width: 1080px;
+  height: 1920px;
+  max-height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-family: 'Nivea';
+  background: #9fdae0; 
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.questionContainer {
+  width: 100vw;
+  height: auto;
+  display: none;
+  text-align: center;
+}
+
+.questionContainer img {
+  width: 60%;
+  height: auto;
+}
+
+.questionContainer .title-1 {
+  width: 100%;
+  height: auto;
+  padding: 50px;
+  font-size: 50px;
+  text-align: center;
+  color: #262f67;
+}
+
+.design{
+  margin-left: 205px;
+  margin-bottom: 60px;
+  width: 62%;
+  height: 195px;
+  line-height: 52px;
+  background-color: #f9cce0;
+  border-radius: 45px;
+}
+
+.img-reinicia{
+  margin-left: 205px;
+  margin-bottom: 60px;
+  width: 62%;
+  height: 195px;
+  line-height: 52px;
+  background-color: #9fdae0;
+  border-radius: 35px;
+  padding-top: 80px;
+}
+
+
+.questionContainer .answer-1 {
+  width: 100%;
+  height: auto;
+  padding-bottom: 35px;
+  font-size: 37px;
+  text-align: center;
+  color: #0032a0;
+}
+
+.questionContainer-2 {
+  width: 100vw;
+  height: auto;
+  display: none;
+  text-align: center;
+}
+
+.questionContainer-2 img {
+  width: 60%;
+  height: auto;
+}
+
+.questionContainer-2 .title-2 {
+  width: 100%;
+  height: auto;
+  padding: 50px;
+  font-size: 50px;
+  text-align: center;
+  color: #262f67;
+}
+
+.questionContainer-2 .answer-2 {
+  width: 100%;
+  height: auto;
+  padding-bottom: 35px;
+  font-size: 37px;
+  text-align: center;
+  color: #0032a0;
+}
+
+.questionContainer-3 {
+  width: 100vw;
+  height: auto;
+  display: none;
+  text-align: center;
+}
+
+.questionContainer-3 img {
+  width: 60%;
+  height: auto;
+}
+
+.questionContainer-3 .title-3 {
+  width: 100%;
+  height: auto;
+  padding: 50px;
+  font-size: 50px;
+  text-align: center;
+  color: #262f67;
+}
+
+.questionContainer-3 .answer-3 {
+  width: 100%;
+  height: auto;
+  padding-bottom: 35px;
+  font-size: 37px;
+  text-align: center;
+  color: #0032a0;
+}
+
+
+.combina {
+  width: 100vw;
+  height: auto;
+  display: none;
+  text-align: center;
+}
+
+.combina_img {
+  width: 400px;
+  height: auto;  
+  text-align: center;
+}
+
+.combina .title {
+  width: 100%;
+  height: auto;
+  padding: 50px;
+  font-size: 50px;
+  text-align: center;
+  color: #262f67;
+}
+
+.combina .answer {
+  width: 100%;
+  height: auto;
+  padding: 15px;
+  font-size: 50px;
+  text-align: center;
+  color: #0032a0;
+ 
+}
+
+.images {
+  display: none;
+}
+
+.images img {
+  width: 100%;
+  height: 100vh;
+}
+
+.images img.logo-beiersdorf {
+  width: 15%;
+  height: auto;
+  position: absolute;
+  bottom: 0;
+  right: 20%;
+}
+
+.activeImage {
+  display: block;
+}
+
+#containerImageLink {
+  position: relative;
+}
+
+#containerImageLink div {
+  position: absolute;
+  bottom: 15%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+}
+
+#containerImageLink div button {
+  padding: 1rem 6rem;
+  border: 0;
+  cursor: pointer;
+}
+
+#containerImageLink div button:active {
+  opacity: 0.9;
+}
+
+
+/*# sourceMappingURL=styles.css.map */
+
