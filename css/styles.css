@@ -15,6 +15,7 @@ body {
   display: flex;
   font-family: 'Nivea';
   background: #9fdae0; 
+  overflow: hidden;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
